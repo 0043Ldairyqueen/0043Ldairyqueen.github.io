@@ -14,10 +14,44 @@
 
 <body>
     <!-- sticky responsive navbar  -->
-    <nav active="product"></nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
+        <a class="navbar-brand" href="#">
+            <div class="brand">
+                <img src="logo.png" class="d-inline-block align-top">
+                <span class="h1">Dairy Queen</span>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="h5 nav-link" href="index.html">HOME</a></li>
+                <li class="nav-item"><a class="h5 nav-link" href="product.html">PRODUCT</a></li>
+                <li class="nav-item"><a class="h5 nav-link" href="delivery.html">DELIVERY</a></li>
+                <li class="nav-item"><a class="h5 nav-link" href="career.html">CAREER</a></li>
+                <li class="nav-item"><a class="h5 nav-link" href="contact.html">CONTACT US</a></li>
+                <li class="nav-item"><a class="h5 nav-link active" href="about.html">ABOUT US</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <!-- jumbotron  -->
-    <div class="dq-jumbotron" data="PRODUCTS"></div>
+    <div class="bg-danger text-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md center-content py-5 m3-pics">
+                    <img class="box100" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg">
+                </div>
+                <div class="col-md py-5 center-content">
+                    <div class="display-3">ABOUT US</div>
+                </div>
+                <div class="col-md center-content py-5 m3-pics">
+                    <img class="box100" src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- products -->
     <div class="container" id="products">
