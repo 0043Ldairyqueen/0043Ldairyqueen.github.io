@@ -22,8 +22,8 @@ body{
 	height: 100vh;
 	background:#fffbc8;
 }
-/* Home  */
 
+/* Home  */
 .brand {
     display: flex;
     justify-content: center;
@@ -246,7 +246,7 @@ body{
 }
 
 
-/* Products  */
+/* Products */
 
 * {
     -webkit-box-sizing: border-box;
@@ -265,6 +265,10 @@ body{
 #products .group img {
     height: 200px;
     width: auto;
+}
+
+#product category {
+    font-size: 60px;
 }
 
 
