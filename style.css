@@ -311,6 +311,11 @@ body{
     color: transparent;
 }
 
+/* career */
+.career h1 {
+  font-size: 70px;
+}
+
 /* for firefox */
 
 @-moz-keyframes my-animation {
