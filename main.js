@@ -17,8 +17,6 @@ try {
 const footerEl = document.getElementsByTagName('footer')[0];
 footerEl.setAttribute('class', 'container-fluid bg-#dc3546 text-light py-4');
 footerEl.innerHTML = `
-	<!-- Boxicon -->
-	<link href='https://boxicons.com/?query=' rel='stylesheet'>
 	<!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
