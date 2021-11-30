@@ -38,12 +38,12 @@ footerEl.innerHTML = `
 		</div>
 		<div class="box col-md-3 mb-md-0 mb-3">
 			<div class="social-media">
-                <a href="#" class= "fab fa-facebook-f"></a>
-                <a href="#" class= "fab fa-twitter"></a>
-                <a href="#" class= "fab fa-instagram"></a>
-                <a href="#" class= "divide fab fa-linkedin"></a>
-				<a href="#" class= "fab fa-youtube"></a>
-                <a href="#" class= "fab fa-pinterest"></a>
+                <a href="https://www.facebook.com/dairyqueenphilippines/?brand_redir=50504372607" class= "fab fa-facebook-f"></a>
+                <a href="https://twitter.com/DairyQueen" class= "fab fa-twitter"></a>
+                <a href="https://www.instagram.com/dairyqueen/" class= "fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/company/dairy-queen/" class= "divide fab fa-linkedin"></a>
+				<a href="https://www.youtube.com/channel/UC3Jb2uyChjXLSJQkjo2dH_g?view_as=subscriber" class= "fab fa-youtube"></a>
+                <a href="https://www.pinterest.ph/dairyqueenCA/_saved/" class= "fab fa-pinterest"></a>
             </div>
 		</div>
 		<div class="box col-md-3 mb-md-0 mb-3">
@@ -85,3 +85,4 @@ footerEl.innerHTML = `
         </h5>
     </div>
 `
+
