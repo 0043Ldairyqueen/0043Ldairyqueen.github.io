@@ -41,7 +41,7 @@ const modalContainerEl = document.createElement('div')
 for (category in categories) {
     // category element 
     var catEl = document.createElement('div')
-    catEl.classList.add('category')
+    catEl.classList.add('category','pb-5')
 
     // category header 
     var catH1 = document.createElement('h1')
@@ -52,7 +52,7 @@ for (category in categories) {
     for (group in categories[category]) {
         // group element
         var groupEl = document.createElement('div')
-        groupEl.classList.add('group')
+        groupEl.classList.add('group','pt-5','my-5')
 
         // group header
         var groupH3 = document.createElement('h3')
