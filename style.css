@@ -12,15 +12,12 @@ html {
     font-size: 62.5%;
 }
 
-
 body {
     font-family: var(--font);
     background: #fffbc8;
 }
 
-
 /* Home  */
-
 .brand {
     display: flex;
     justify-content: center;
@@ -33,14 +30,17 @@ body {
 }
 
 .brand span {
-    font-size: 25px;
+    font-size: 30px;
     margin: 0;
 }
 
 .nav-item a {
     margin-bottom: 0;
-    font-size: 20px !important;
-    font-family: var(--font);
+	font-size:20px !important;
+	font-family: var(--font);
+	margin-right: 20px;
+	text-align: center;
+	margin-top: 10px;
 }
 
 .navbar-toggler {
@@ -54,12 +54,35 @@ body {
 }
 
 .htitle {
-    font-size: 3em;
+    font-size: 5em;
+	text-align: left;
+	text-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .hsub {
     font-size: 2em;
     font-style: italic;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.header .btn {
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 600;
+	border-radius: 15px;
+	border-width: 3px; 
+	letter-spacing: 2px;
+	margin-right: 25px;	
+	background: var(--yellow);
+	border-color: var(--yellow);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.header .btn:hover {
+	text-decoration: none;
+    background: transparent;
+	border-color: var(--yellow);
+    color: #fff;
 }
 
 .h1 {
@@ -75,24 +98,14 @@ body {
     min-height: 500px;
 }
 
-.header .btn {
-    padding: 12px 20px;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 15px;
-    border-width: 3px;
-    letter-spacing: 2px;
-    margin-right: 25px;
+.img-fluid{
+	height: 500px;
+	width: 500px;
+	margin-bottom: 25px;
+	padding: 5px;
+	background-color: var(--yellow);
+	border-radius: 0% 0% 48% 53% / 10% 10% 43% 44% ;
 }
-
-.header .btn:hover {
-    text-decoration: none;
-    background: var(--yellow);
-    border-color: var(--yellow);
-    color: #fff;
-}
-
-
 
 .center-content {
     display: flex;
@@ -101,7 +114,6 @@ body {
     align-items: center;
     text-align: center;
 }
-
 
 .dq-jumbotron-img {
     /* position: absolute; */
@@ -120,8 +132,89 @@ body {
 }
 
 .dq-jumbotron img:hover {
-    margin-top: -10px;
-    margin-right: -10px;
+    margin-top: -5px;
+    margin-right: -5px;
+}
+
+
+.m3-pics img:nth-child(1) {
+    display: block;
+	width: 100%;
+    height: 1000%;
+}
+
+.who-we-are img,
+.box100 {
+    width: 80px;
+    height: 80px;
+	border-radius: 40%;
+}
+
+.who-we-are h1 {
+	font-size: 65px;
+	margin-bottom: 10px;
+}
+
+.who-we-are hr {
+    width: 355px;
+    height: 5px;
+	border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 25px;
+    background-color: var(--yellow);
+	opacity: 100%;
+}
+
+.who-we-are p {
+	font-size: 20px;
+}
+
+.who-we-are .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+	border-radius: 10px;
+	border-width: 3px; 
+	letter-spacing: 2px;
+	background: var(--yellow);
+	border-color: var(--yellow);
+	color: black;
+	
+}
+
+.who-we-are .btn:hover {
+    background: transparent;
+	border-color: black;
+	color: black;
+}
+
+.service-feature h1{
+	font-size: 35px;
+} 
+
+.service-feature img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 1em auto;
+    border-radius: 50%;
+    transition: all .2s;
+}
+
+.service-feature img:hover {
+    border: 5px solid var(--yellow);
+}
+
+.service-feature h4 {
+    font-size: 25px;
+}
+
+/*product*/
+.center-content .headername {
+	font-size: 85px;
+	text-shadow: 9px 0px var(--yellow), 15px 0px var(--blue);
+	letter-spacing: 25px;
 }
 
 
@@ -131,6 +224,110 @@ body {
     font-size: 70px;
 }
 
+/*Delivery*/
+.header .headername {
+	font-size: 65px;
+	text-shadow: 5px 0px var(--yellow), 10px 0px var(--blue);
+	letter-spacing: 25px;
+}
+
+.header .m3-pics1 img{
+	width: 80%;
+	height: 95%;
+	margin-left: 50px;
+}
+
+.header .m3-pics2 img{
+	width: 75%; 
+}
+
+.delivery-menu h1{
+    font-size: 500%;
+	letter-spacing: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.delivery-menu hr {
+    width: 40%;
+    height: 5px;
+	border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 18px;
+	margin-bottom: 30px;
+    background-color: var(--yellow);
+	opacity: 100%;
+}
+
+.delivery-menu .images {
+    width: 100%;
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.delivery-menu .image {
+    flex: 1;
+}
+
+.delivery-menu .image img {
+    width: 100%;
+	height: 100%;
+    padding: 1em;
+}
+
+.text-scroll {
+    background: var(--yellow);
+    overflow: hidden;
+    padding: 2em 0;
+}
+
+.text-scroll div:nth-child(1) {
+    white-space: nowrap;
+    font-size: 2em;
+	letter-spacing: 3px;
+    font-weight: 900;
+    text-transform: uppercase;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-animation: my-animation 20s linear infinite;
+    -webkit-animation: my-animation 20s linear infinite;
+    animation: my-animation 20s linear infinite;
+}
+
+.text-scroll div:nth-child(1) span {
+    -webkit-text-stroke: 2px #000;
+    color: var(--yellow);
+}
+
+.delivery-orders .order a{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+	border-radius: 10px;
+	margin-top: 30px;
+	border-width: 3px; 
+	letter-spacing: 2px;
+	background: var(--yellow);
+	border-color: var(--yellow);
+	color: black;
+	
+}
+
+.delivery-orders .order  a:hover {
+    background: transparent;
+	border-color: black;
+	color: black;
+}
+
+.delivery-orders .order  img {
+    width: 100%;
+	padding: 5px;
+	
+}
 
 /* for firefox */
 
@@ -190,6 +387,176 @@ body {
     padding-left: 2em;
     padding-right: 2em;
     font-weight: 600;
+}
+
+/*Career*/
+.h1 {
+  font-size: 500%;
+}
+
+.career_header .title {
+	font-size: 850%;
+	text-shadow: 8px 0px var(--yellow), 15px 0px var(--blue);
+	letter-spacing: 25px;
+}
+
+.career_header .m3-pics img{
+	height: 100%;
+	width: 100%;
+	transform: rotate(80deg);
+}
+
+.career_header .m3-pic img{
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.container .memorable {
+	font-size: 60px;
+	text-shadow: 5px 0px var(--yellow);
+}
+
+.container li{
+	font-size: 23px;
+	list-style: none;
+}
+
+.container li:before{
+	font-size: 25px;
+	content: "\1F366";
+	color: var(--yellow);
+}
+
+.form h1 {
+	font-size: 35px;
+	font-weight: bold;
+	align-items: center;
+}
+
+.form-group label {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.form-group input{
+	font-size: 15px;
+	padding: 1rem 1.5rem;
+	border-radius: 8px;
+	border-color: var(--yellow);
+	border-width: 2px;
+}
+
+.form-group button{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 1rem 1.5rem;
+	border-radius: 8px;
+	border-width: 2px;
+}
+
+.corpAdd, .regForm, .workUs {
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin-top: 15px;
+}
+
+.corpAdd hr {
+    width: 385px;
+    height: 5px;
+	border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 15px;
+    background-color: var(--yellow);
+	opacity: 100%;
+}
+
+.regForm hr {
+    width: 395px;
+    height: 5px;
+	border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 15px;
+    background-color: var(--yellow);
+	opacity: 100%;
+}
+
+.workUs hr {
+    width: 290px;
+    height: 5px;
+	border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 15px;
+    background-color: var(--yellow);
+	opacity: 100%;
+}
+
+.corporate h1{
+	font-size: 20px;
+	font-weight: bold;
+	color: var(--pink);
+}
+
+.corporate p{
+	font-size: 15px;
+}
+
+/*Contact*/
+.header .headername {
+	font-size: 80px;
+	text-shadow: 5px 0px var(--yellow), 10px 0px var(--blue);
+	letter-spacing: 25px;
+}
+
+.container .parag {
+	font-size: 2.1rem;
+	text-align: center;
+	margin-bottom: none;
+}
+
+.container h5 {
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+.headername hr {
+    width: 55%;
+    height: 5px;
+	border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 0px;
+    background-color: var(--yellow);
+	opacity: 100%;
+}
+
+.center-content .store{
+	padding: 60px;
+}
+
+.center-content h4 {
+	margin-top: 50px;
+	margin-bottom: none;
+	font-size: 4rem;
+	text-shadow: 5px 5px var(--yellow);
+}
+
+.center-content p {
+	font-size: 2.2rem;
+	text-align: justify;
+	padding: 60px;
+}
+
+.form-group textarea{
+	font-size: 15px;
+	padding: 1rem 1.5rem;
+	border-radius: 8px;
+	border-color: var(--yellow);
+	border-width: 2px;
 }
 
 
