@@ -1,4 +1,3 @@
-
 try {
     const dripB = document.getElementsByClassName('dripping-bottom')[0];
     const dripT = document.getElementsByClassName('dripping-top')[0];
@@ -15,11 +14,9 @@ try {
 }
 
 const footerEl = document.getElementsByTagName('footer')[0];
-footerEl.setAttribute('class', 'container-fluid bg-#dc3546 text-light py-4');
+footerEl.setAttribute('class', 'container-fluid text-light py-4');
 footerEl.innerHTML = `
-	<!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	
 <!-- row 1  -->
 <section class="footer">
 		<div class="box-container text-center text-md-left">
@@ -85,4 +82,3 @@ footerEl.innerHTML = `
         </h5>
     </div>
 `
-
