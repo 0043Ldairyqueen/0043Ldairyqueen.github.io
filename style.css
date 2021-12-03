@@ -8,6 +8,10 @@
     --font: 'Roboto Slab', serif;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 
 body {
     font-family: var(--font);
@@ -246,7 +250,6 @@ body {
 
 footer {
     background-color: var(--pink);
-    font-size: 62.5%;
 }
 
 footer .social-media .col {
