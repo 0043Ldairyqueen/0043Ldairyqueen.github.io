@@ -132,50 +132,6 @@ body {
 
 /* Delivery  */
 
-.delivery-menu .images {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.delivery-menu .image {
-    flex: 1;
-}
-
-.delivery-menu .image img {
-    width: 100%;
-    padding: 1em;
-}
-
-.delivery-orders img {
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-.text-scroll {
-    background: var(--yellow);
-    overflow: hidden;
-    padding: 1em 0;
-}
-
-.text-scroll div:nth-child(1) {
-    white-space: nowrap;
-    font-size: 2em;
-    font-weight: 900;
-    text-transform: uppercase;
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-    -moz-animation: my-animation 20s linear infinite;
-    -webkit-animation: my-animation 20s linear infinite;
-    animation: my-animation 20s linear infinite;
-}
-
-.text-scroll div:nth-child(1) span {
-    -webkit-text-stroke: 2px #000;
-    color: transparent;
-}
 
 
 /* career */
