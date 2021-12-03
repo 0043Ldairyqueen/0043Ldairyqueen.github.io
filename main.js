@@ -57,7 +57,7 @@ footerEl.innerHTML = `
 <!-- row 2  -->
 <div class="row">
     <div class="col-lg brand">
-        <img src="footer.png">
+        <img src="images/footer.png">
     </div>
     <div class="col-lg brand">
         <h4>&reg;T.M. AM.D.Q. CORP &copy; 2021 COPYRIGHT <br>
