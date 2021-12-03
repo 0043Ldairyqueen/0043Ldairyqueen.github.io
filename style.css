@@ -113,7 +113,7 @@ body {
 }
 
 .dq-jumbotron img {
-    max-width: 100%;
+    max-width: 80%;
     position: absolute;
     transition: all .3s;
 }
