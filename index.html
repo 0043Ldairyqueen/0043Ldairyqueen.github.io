@@ -25,8 +25,8 @@
         .dripping-top div,
         .dripping-bottom div {
             flex: 1;
-            height: 20px;
-            min-width: 25px;
+            height: 28px;
+            min-width: 35px;
         }
 
         .dripping-top div:nth-child(odd) {
@@ -62,20 +62,25 @@
         .headername {
             height: 300px;
         }
-
+		
         .pointy-tr,
         .pointy-bl {
             transition: all .2s ease-in-out;
         }
+		
+		.pointy:hover {
+			margin-top: -5px;
+            margin-left: -5px;
+		}
 
         .pointy-tr:hover {
-            margin-top: -5px;
-            margin-right: -5px;
+            margin-top: -150px;
+            margin-left: -150px;
         }
 
         .pointy-bl:hover {
-            margin-bottom: -5px;
-            margin-left: -5px;
+            margin-top: -150px;
+            margin-right: -150px;
         }
 
         .who-we-are img {
@@ -84,6 +89,8 @@
 
         .who-we-are h1 {
             font-size: 50px;
+			padding-left:50px;
+			padding-right:50px;
         }
 
         .who-we-are p {
@@ -109,7 +116,7 @@
         }
 
         .featured-products .floating-image-fix {
-            padding-top: 130px;
+            padding-top: 60px;
         }
 
         .featured-products h1 {
@@ -252,7 +259,7 @@
 
                 </div>
                 <div class="col-lg center-content py-4 m3-pics">
-                    <img class="pointy-tr" width="300px" src="images/homepage.png">
+                    <img class="pointy" width="300px" src="images/homepage.png">
                 </div>
             </div>
         </div>
@@ -264,11 +271,11 @@
     <div class="dripping-bottom pb-5"></div>
 
     <!-- who we are  -->
-    <div class="container who-we-are">
+    <div class="who-we-are">
         <div class="row">
-            <div class="col-lg center-content py-3">
+            <div class="col-lg center-content py-5">
                 <img class="pointy-bl"
-                    src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg">
+                    src="images/home1.png" style="width:350px;height:300px;">
             </div>
             <div class="col-lg text-center py-5">
                 <h1>Who we are?
@@ -281,11 +288,10 @@
                     makes you always come back for more. And this is the reason behind a sweet success story uniquely
                     its own.
                 </p>
-                <a href="about.html" class="btn btn-outline-dark">Learn More</a>
+                <a href="about.html" style ="margin-top: 15px;" class="btn btn-outline-dark">Learn More</a>
             </div>
             <div class="col-lg center-content py-5">
-                <img class="pointy-tr"
-                    src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg">
+                <img class="pointy-tr" src="images/home.jpg" style="width:350px;height:300px;">
             </div>
         </div>
     </div>
@@ -301,7 +307,7 @@
                     </div>
                     <div class="text-center py-4">
                         <h2 class="mx-auto mb-4">Blizzard Treats</h2>
-                        <h5 class="mx-auto mb-4"><b>Upsidedownright thick!</b><br>Kitkat Blizzard & Parfait<br>Royal
+                        <h5 class="mx-auto mb-4"><b>Upsidedownright thick <br> ice cream!</b><br>Kitkat Blizzard & Parfait<br>Royal
                             Flavors<br>Classic Flavors</h5>
                         <a href="product.html" class="btn px-4">Explore</a>
                     </div>
@@ -314,8 +320,7 @@
                     </div>
                     <div class="text-center py-4">
                         <h2 class="mx-auto mb-4">Classic Treats</h2>
-                        <h5 class="mx-auto mb-4"><b>Taste 75 years of treat
-                                perfection!</b><br>Novelties<br>Sundaes<br>Cones</h5>
+                        <h5 class="mx-auto mb-4"><b>Taste 75 years of treat perfection!</b><br>Novelties<br>Sundaes<br>Cones</h5>
                         <a href="product.html" class="btn px-4">Explore</a>
                     </div>
                 </div>
