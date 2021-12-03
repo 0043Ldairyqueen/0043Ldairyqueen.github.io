@@ -17,10 +17,12 @@ function scrapeProducts(elementId) {
                 var itemName = itemEl.getAttribute('name');
                 var itemImage = itemEl.getAttribute('image');
                 var itemDescription = itemEl.getAttribute('description');
+                var itemExtendedHTML = itemEl.innerHTML;
                 var item = {
                     name: itemName,
                     image: itemImage,
-                    description: itemDescription
+                    description: itemDescription,
+                    extend: itemExtendedHTML
                 }
                 result[categName][groupName].push(item)
             }
@@ -73,9 +75,10 @@ for (category in categories) {
 
                 // clickable image for modal
                 var itemModalEl = document.createElement('div')
+                var itemModalText = itemModalEl.innerHTML;
                 itemModalEl.setAttribute('data-toggle', 'modal')
                 itemModalEl.setAttribute('data-target', `#${itemID}`)
-                itemModalEl.setAttribute('style', 'margin:0 .5em;min-width:300px;width:fill-content')
+                itemModalEl.setAttribute('style', 'margin:0 1.5em;min-width:300px;width:fill-content;')
                 itemModalEl.innerHTML = `<img src="${item.image}">`
                 groupItems.append(itemModalEl)
 
@@ -85,11 +88,12 @@ for (category in categories) {
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title">${item.name}</h5>
+                                    <h5 class="modal-title text-center" style="flex:1">${item.name}</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                 </div>
-                                <div class="modal-body">
+                                <div class="modal-body text-center">
                                     ${item.description}
+                                    <div class="text-center">${item.extend}</div>
                                 </div>
                             </div>
                         </div>
