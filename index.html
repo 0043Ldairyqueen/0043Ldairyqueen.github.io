@@ -46,6 +46,165 @@
         .dripping-bottom div:nth-child(even) {
             background: inherit;
         }
+
+        .m3-pics img:nth-child(1) {
+            display: block;
+            width: 100%;
+            height: 1000%;
+        }
+
+        .box100 {
+            width: 80px;
+            height: 80px;
+            border-radius: 40%;
+        }
+
+        .headername {
+            height: 300px;
+        }
+
+        .pointy-tr,
+        .pointy-bl {
+            transition: all .2s ease-in-out;
+        }
+
+        .pointy-tr:hover {
+            margin-top: -5px;
+            margin-right: -5px;
+        }
+
+        .pointy-bl:hover {
+            margin-bottom: -5px;
+            margin-left: -5px;
+        }
+
+        .who-we-are img {
+            max-width: 300px;
+        }
+
+        .who-we-are h1 {
+            font-size: 50px;
+        }
+
+        .who-we-are p {
+            font-size: 20px;
+        }
+
+        .who-we-are .btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 10px;
+            border-width: 3px;
+            letter-spacing: 2px;
+            background: var(--yellow);
+            border-color: var(--yellow);
+            color: black;
+        }
+
+        .who-we-are .btn:hover {
+            background: transparent;
+            border-color: black;
+            color: black;
+        }
+
+        .featured-products .floating-image-fix {
+            padding-top: 130px;
+        }
+
+        .featured-products h1 {
+            font-size: 50px;
+        }
+
+        .featured-products h2 {
+            font-size: 38px;
+            color: white;
+        }
+
+        .featured-products h5 {
+            font-size: 20px;
+            color: white;
+        }
+
+        .featured-products .img-container {
+            width: 150px;
+            height: 150px;
+            display: absolute;
+            align-self: center;
+            border-radius: 50%;
+            margin-top: -75px;
+            transition: all .2s;
+            background-color: var(--yellow);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .featured-products .img-container:hover {
+            border: 5px solid white;
+        }
+
+        .featured-products img {
+            width: 200px;
+            height: 200px;
+            display: absolute;
+            align-self: center;
+            border-radius: 50%;
+            margin-top: -100px;
+            transition: all .2s;
+        }
+
+        .featured-products .img-container:hover img {
+            width: 250px;
+            height: 250px;
+        }
+
+        .featured-products .card {
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 500px;
+            background-color: var(--blue)
+        }
+
+        .featured-products .btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 25px;
+            border-radius: 10px;
+            border-width: 3px;
+            letter-spacing: 2px;
+            background: var(--yellow);
+            border-color: var(--white);
+            color: white;
+        }
+
+        .featured-products .btn:hover {
+            background: transparent;
+        }
+
+        .service-feature h1 {
+            font-size: 35px;
+        }
+
+        .service-feature img {
+            display: block;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 1em auto;
+            border-radius: 50%;
+            transition: all .2s;
+        }
+
+        .service-feature img:hover {
+            border: 5px solid var(--yellow);
+        }
+
+        .service-feature h4 {
+            font-size: 25px;
+        }
+
     </style>
 </head>
 
@@ -132,11 +291,13 @@
 
     <!-- featured products  -->
     <div class="container py-5 text-center featured-products">
-        <h1 class="floating-image-fix">Featured Products</h1>
+        <h1>Featured Products</h1>
         <div class="row">
-            <div class="col-lg pb-5">
+            <div class="col-lg pb-5  floating-image-fix">
                 <div class="card text-left">
-                    <img class="shadow" src="images/hpblizzard.png">
+                    <div class="img-container">
+                        <img src="images/hpblizzard.png">
+                    </div>
                     <div class="text-center py-4">
                         <h2 class="mx-auto mb-4">Blizzard Treats</h2>
                         <h5 class="mx-auto mb-4"><b>Upsidedownright thick!</b><br>Kitkat Blizzard & Parfait<br>Royal
@@ -145,9 +306,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg pb-5 ">
+            <div class="col-lg pb-5  floating-image-fix">
                 <div class="card text-left">
-                    <img class="shadow" src="images/hpcone.png">
+                    <div class="img-container">
+                        <img src="images/hpcone.png">
+                    </div>
                     <div class="text-center py-4">
                         <h2 class="mx-auto mb-4">Classic Treats</h2>
                         <h5 class="mx-auto mb-4"><b>Taste 75 years of treat
@@ -156,9 +319,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg pb-5">
+            <div class="col-lg pb-5 floating-image-fix">
                 <div class="card text-left">
-                    <img class="shadow" src="images/hpdrinks.png">
+                    <div class="img-container">
+                        <img src="images/hpdrinks.png">
+                    </div>
                     <div class="text-center py-4">
                         <h2 class="mx-auto mb-4">DQ Frozen Drinks</h2>
                         <h5 class="mx-auto mb-4"><b>Surrender to your flavor crave!</b><br>Blended
