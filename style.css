@@ -314,6 +314,7 @@ footer .box-container .box .social-media a {
     margin: 5px;
     margin-top: 60px;
     margin-right: 22px;
+    transition: all .2s;
 }
 
 footer .box-container .box .social-media a:hover {
