@@ -75,7 +75,6 @@ for (category in categories) {
 
                 // clickable image for modal
                 var itemModalEl = document.createElement('div')
-                var itemModalText = itemModalEl.innerHTML;
                 itemModalEl.setAttribute('data-toggle', 'modal')
                 itemModalEl.setAttribute('data-target', `#${itemID}`)
                 itemModalEl.setAttribute('style', 'margin:0 1.5em;min-width:300px;width:fill-content;')
