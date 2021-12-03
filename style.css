@@ -103,6 +103,27 @@ body {
 }
 
 
+.dq-jumbotron-img {
+    /* position: absolute; */
+    min-height: 300px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dq-jumbotron img {
+    max-width: 100%;
+    position: absolute;
+    transition: all .3s;
+}
+
+.dq-jumbotron img:hover {
+    margin-top: -10px;
+    margin-right: -10px;
+}
+
+
 /* career */
 
 .career h1 {
