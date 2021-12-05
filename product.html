@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
     <style>
-
         #products * {
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -47,10 +46,15 @@
         #product category {
             font-size: 60px;
         }
-	
-	.group {
-	margin: 50px auto !important;
-	}
+
+        .group {
+            margin: 50px auto !important;
+        }
+
+        .flickity-page-dots .dot {
+            margin-left: 1em;
+            margin-right: 1em;
+        }
     </style>
 </head>
 
@@ -61,7 +65,7 @@
             <div class="brand">
                 <img src="logo.png" class="d-inline-block align-top">
                 <span class="h1">Dairy Queen</span>
-            </div>  
+            </div>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -256,8 +260,8 @@
         </category>
         <category name="DQ® CAKES">
             <group name="DQ® CAKES">
-                <item image="images/DQ-HAPPY-BIRTHDAY-CAKE.png"
-                    name="Happy Birthday Pink Ice Cream Cake 8' " description=" Say happy birthday with extra sweetness
+                <item image="images/DQ-HAPPY-BIRTHDAY-CAKE.png" name="Happy Birthday Pink Ice Cream Cake 8' "
+                    description=" Say happy birthday with extra sweetness
                     with this 100% ice cream cake made with chocolate fudge, crunchy center surrounded by delicious
                     vanilla and chocolate soft serve." <br> PRICE: <br> P799.00 </item>
                 <item image="images/DQ-RAINBOW-CAKE.png " name="Rainbow Sky Blue Ice Cream Cake 8'" description=" Add a
@@ -266,7 +270,7 @@
                 <item image="images/DQ-FLOWER-CAKE_.png" name="Yellow Ice Cream Cake 8'" description=" This 100% ice
                     cream cake is made with cake crunch and chocolate fudge combined with chocolate and vanilla soft
                     serve perfect to brighten up someone’s day. "> <br> PRICE: <br> P799.00 </item>
-		<item image=" images/DQ-CHOCO-SHAVINGS-CAKE_.png " name=" Choco Shavings Ice Cream Cake 8'"
+                <item image=" images/DQ-CHOCO-SHAVINGS-CAKE_.png " name=" Choco Shavings Ice Cream Cake 8'"
                     description="Have a fun delectable bonding with your family or friends with this 100% Ice Cream Cake made more special with chocolate shavings.">
                     <br> PRICE: <br> P799.00
                 </item>
@@ -275,8 +279,9 @@
                 <item image="images/Oreo-Cake-8inches_.png" name="Oreo® Blizzard® Cake 8'" description=" Oreo®
                     Blizzard® Cake taken to the next level! Fall in love with this tasty cake made with lots of fresh
                     Oreo® cookie pieces, creamy vanilla soft serve layering and of course, our distinctive fudge and
-                    crunch center. Best enjoyed with your favorite persons, anywhere, anytime! "> <br> PRICE: <br> P899.00</item>
-		        <item image=" images/Chocolate-Extreme.png " name="Chocolate Xtreme Blizzard® Cake 8'"
+                    crunch center. Best enjoyed with your favorite persons, anywhere, anytime! "> <br> PRICE: <br>
+                    P899.00</item>
+                <item image=" images/Chocolate-Extreme.png " name="Chocolate Xtreme Blizzard® Cake 8'"
                     description="Fancy a chocolatey treat? With brownie pieces, lots of choco chunks, cocoa fudge, fudge and crunch center, and creamy chocolate soft serve, our Chocolate Xtreme Blizzard® Cake is all you need to calm your crave. A fully flavored chocolate-powered experience awaits you!">
                     <br> PRICE: <br> P899.00
                 </item>
@@ -287,10 +292,11 @@
                 <item image="images/ovaltine (2).png" name="Chocolate Ovaltine Blizzard® Cake 8'" description=" Joining
                     the Ovaltine-flavored treats is the crunchy and appetizing Chocolate Ovaltine Blizzard Cake! It is
                     an ice cream cake made of vanilla soft serve with layers of crushed Oreos, cold fudge, cake crunch,
-                    chocolate toppings, Ovaltine malt flakes, whipped cream, and Ovaltine Crunchy Pop. "> <br> PRICE: <br> P899.00</item>
-		</group>
-		<group name=" DQ® MINI BLIZZARD® CAKES ">
-		        <item image=" images/oreo (1).png " name=" Oreo Blizzard Cake 6'"
+                    chocolate toppings, Ovaltine malt flakes, whipped cream, and Ovaltine Crunchy Pop. "> <br> PRICE:
+                    <br> P899.00</item>
+            </group>
+            <group name=" DQ® MINI BLIZZARD® CAKES ">
+                <item image=" images/oreo (1).png " name=" Oreo Blizzard Cake 6'"
                     description="Oreo® Blizzard® Cake taken to the next level! Fall in love with this tasty cake made with lots of fresh Oreo® cookie pieces, creamy vanilla soft serve layering and of course, our distinctive fudge and crunch center. Best enjoyed with your favorite persons, anywhere, anytime!">
                     <br> PRICE: <br> P549.00
                 </item>
@@ -298,38 +304,40 @@
                     treat? With brownie pieces, lots of choco chunks, cocoa fudge, fudge and crunch center, and creamy
                     chocolate soft serve, our Chocolate Xtreme Blizzard® Cake is all you need to calm your crave. A
                     fully flavored chocolate-powered experience awaits you! "></item>
-				<item image=" images/kitkat (1).png " name=" Chocolate Kitkat Blizzard® Cake 6'"
+                <item image=" images/kitkat (1).png " name=" Chocolate Kitkat Blizzard® Cake 6'"
                     description="Made with KitKat Chocolate layered with creamy DQ vanilla soft serve, fudge and crunch center.">
                     <br> PRICE: <br> P549.00
                 </item>
                 <item image="images/ovaltine (1).png" name="Chocolate Ovaltine Blizzard® Cake 6'" description=" Joining
                     the Ovaltine-flavored treats is the crunchy and appetizing Chocolate Ovaltine Blizzard Cake! It is
                     an ice cream cake made of vanilla soft serve with layers of crushed Oreos, cold fudge, cake crunch,
-                    chocolate toppings, Ovaltine malt flakes, whipped cream, and Ovaltine Crunchy Pop. "> <br> PRICE: <br> P549.00 </item>
-			</group>
-		</category>
-		<category name=" DQ® TO-GO TIN CAKES ">
-			<group name=" Enjoy Happy at Home ">
-				<item image=" images/cashew.png " name=" Strawberry Cashew Cheesecake To-Go Tin Cake " description=" Served in a
+                    chocolate toppings, Ovaltine malt flakes, whipped cream, and Ovaltine Crunchy Pop. "> <br> PRICE:
+                    <br> P549.00 </item>
+            </group>
+        </category>
+        <category name=" DQ® TO-GO TIN CAKES ">
+            <group name=" Enjoy Happy at Home ">
+                <item image=" images/cashew.png " name=" Strawberry Cashew Cheesecake To-Go Tin Cake " description=" Served in a
                     reusable tin can, our Strawberry Cashew Cheesecake tin cake consists of a crushed oreo base, vanila
                     soft serve and topped with a delectable strawberry topping, chopped roasted cashew and cheesecake
                     then garnished with white icing border. "> <br> PRICE: <br> P399.00 </item>
-				<item image=" images/mango.png " name=" Mango Cheesecake To-Go Tin Cake " description=" Served in a reusable tin
+                <item image=" images/mango.png " name=" Mango Cheesecake To-Go Tin Cake " description=" Served in a reusable tin
                     can, our Mango Cheesecake tin cake consists of a crushed oreo base, vanila soft serve topped with
-                    luscious mango topping & cheesecake decorated with white icing grid and border. "> <br> PRICE: <br> P399.00 </item>
-				<item image=" images/oreo.png " name=" Choco Oreo To-Go Tin Cake " description=" Served in a reusable tin can, our
+                    luscious mango topping & cheesecake decorated with white icing grid and border. "> <br> PRICE: <br>
+                    P399.00 </item>
+                <item image=" images/oreo.png " name=" Choco Oreo To-Go Tin Cake " description=" Served in a reusable tin can, our
                     Choco Oreo tin cake consists of a crushed oreo base, vanila soft serve and topped with an
                     irresistable chocolate topping, Oreo chunks, crushed Oreo & marshmallow then garnished with white
                     icing border. "> <br> PRICE: <br> P399.00 </item>
-				<item image=" images/ovaltine.png " name=" Chocolate Ovaltine To-Go Tin Cake " description=" Served in a reusable
+                <item image=" images/ovaltine.png " name=" Chocolate Ovaltine To-Go Tin Cake " description=" Served in a reusable
                     tin can, it is made with crushed oreo base, vanilla softserve, chocolate coating dip, mini
                     marshmallows and ovaltine malt flakes. "> <br> PRICE: <br> P399.00 </item>
-				<item image=" images/kitkat.png " name=" Kitkat To-Go Tin Cake " description=" Served in a reusable tin can, it is
+                <item image=" images/kitkat.png " name=" Kitkat To-Go Tin Cake " description=" Served in a reusable tin can, it is
                     made with crushed oreo base, vanilla softserve, chocolate coating dip, mini marshmallows and
                     ovaltine malt flakes. "> <br> PRICE: <br> P399.00 </item>
-			</group>
-		</category>
-		
+            </group>
+        </category>
+
     </div>
 
     <!-- footer -->
@@ -337,15 +345,18 @@
 
     <!-- bootstrap script  -->
     <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="
-                    sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin=" anonymous "></script>
+                    sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+        crossorigin=" anonymous "></script>
     <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="
-                    sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin=" anonymous "></script>
+                    sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+        crossorigin=" anonymous "></script>
     <script src=" https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="
-                    sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin=" anonymous "></script>
+                    sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+        crossorigin=" anonymous "></script>
 
     <!-- Flickity -->
     <script src=" https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js "></script>
-    
+
     <!-- custom script  -->
     <script src=" products.js "></script>
     <script src=" main.js "></script>

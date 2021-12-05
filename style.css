@@ -248,7 +248,7 @@ body {
 	margin-bottom: 20px;
 }
 
-.delivery-menu hr {
+.delivery-menu hr, .hr-line {
     width: 40%;
     height: 5px;
 	border-radius: 5px;

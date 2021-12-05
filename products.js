@@ -43,10 +43,16 @@ for (category in categories) {
     var catEl = document.createElement('div')
     catEl.classList.add('category','pb-5')
 
+
     // category header 
     var catH1 = document.createElement('h1')
     catH1.innerHTML = category
     catEl.append(catH1)
+
+    // hr line 
+    catHr = document.createElement('hr')
+    catHr.classList.add('hr-line')
+    catEl.append(catHr)
 
     // group
     for (group in categories[category]) {
@@ -58,6 +64,12 @@ for (category in categories) {
         var groupH3 = document.createElement('h3')
         groupH3.innerHTML = group
         groupEl.append(groupH3)
+
+        // hr line
+        groupHr = document.createElement('hr')
+        groupHr.classList.add('hr-line')
+        groupHr.setAttribute('style','width: 20%')
+        groupEl.append(groupHr)
 
         // group items
         var groupItems = document.createElement('div')
